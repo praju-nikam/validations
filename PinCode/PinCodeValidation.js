@@ -44,4 +44,5 @@
     let result_without_whitespace = regex.test(pin_without_whitespace);
     console.log("Result with whitespace in between: "+ result_with_whitespace);    // returns false
     console.log("Result without whitespace in between: " +result_without_whitespace);    // returns true
+    console.log();
 }
